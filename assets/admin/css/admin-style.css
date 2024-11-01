@@ -1,0 +1,72 @@
+/**
+* all admin css
+ */
+.wpde-userstatus-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wpde-userstatus-table thead tr {
+    background: #eee;
+}
+
+.wpde-userstatus-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.wpde-userstatus-table th,
+.wpde-userstatus-table td {
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.wpde-userstatus-table th {
+    text-align: left;
+}
+.wpde-userstatus-table td img{
+    width: 30px;
+}
+.wpde-userstatus-table a {
+    text-decoration: none;
+    text-align: center;
+}
+/**
+* odo list widgets
+ */
+form.deleteitem {
+    text-align: center;
+}
+
+form.deleteitem input[type=submit] {
+    width: 100%;
+    border: navajowhite;
+    color: red;
+    font-size: 24px;
+    font-weight: 800;
+    background: no-repeat;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form.deleteitem input[type=submit]:hover {
+    color: #ff000096;
+}
+
+form.wpde-todolist-form {
+    margin-top: 20px;
+}
+
+form.wpde-todolist-form input[type=text] {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 2px 10px;
+    border-radius: 2px;
+}
+
+form.wpde-todolist-form input[type=submit] {
+    padding: 3px 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: #007cba;
+    border-color: #007cba;
+}
